@@ -54,6 +54,7 @@ class Slackwolf
             'option'    => SetOptionCommand::class,
             'new'       => NewCommand::class,
             'join'      => JoinCommand::class,
+            'hiub'      => JoinCommand::class,
             'leave'     => LeaveCommand::class,
             'start'     => StartCommand::class,
             'end'       => EndCommand::class,

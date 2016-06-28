@@ -27,7 +27,7 @@ class HelpCommand extends Command
 
         $help_msg .= "Available Commands\r\n------------------------\r\n";
         $help_msg .= "|_  !new - Create a new lobby for players to !join for the next game\r\n";
-        $help_msg .= "|_  !join - Join the lobby for the next game\r\n";
+        $help_msg .= "|_  !join - Join the lobby for the next game (!hiub also works)\r\n";
         $help_msg .= "|_  !leave - Leave the lobby for the next game\r\n";
         $help_msg .= "|_  !start - Start the game, when called with no parameters the lobby players are used\r\n";
         $help_msg .= "|_  !start all - Starts a new game with everyone in the channel participating\r\n";
