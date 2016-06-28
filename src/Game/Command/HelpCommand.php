@@ -44,6 +44,7 @@ class HelpCommand extends Command
         $help_msg .= "|_  !dead - Show dead players\r\n";
         $help_msg .= "|_  !alive - Show living players\r\n";
         $help_msg .= "|_  !status - Show game status\r\n";
+        $help_msg .= "|_  !repo - Show the repo link to UQCS's Slackwolf fork\r\n";
 
         $this->client->getDMByUserId($this->userId)->then(function(DirectMessageChannel $dm) use ($client, $help_msg) {
             $client->send($help_msg, $dm);
